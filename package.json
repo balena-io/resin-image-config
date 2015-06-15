@@ -1,0 +1,51 @@
+{
+  "name": "resin-image-config",
+  "version": "1.0.0",
+  "description": "Resin.io image FAT configuration",
+  "main": "build/config.js",
+  "homepage": "https://github.com/resin-io/resin-image-config",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/resin-io/resin-image-config.git"
+  },
+  "keywords": [
+    "resin",
+    "image",
+    "config",
+    "configuration"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "prepublish": "gulp build"
+  },
+  "author": "Juan Cruz Viotti <juanchiviotti@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "coffee-script": "~1.8.0",
+    "gulp": "~3.8.10",
+    "gulp-coffee": "~2.2.0",
+    "gulp-coffeelint": "~0.4.0",
+    "gulp-mocha": "~2.0.0",
+    "gulp-util": "~3.0.1",
+    "mocha": "~2.0.1",
+    "mock-fs": "^2.7.1",
+    "sinon": "^1.15.3",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bluebird": "^2.9.30",
+    "fatfs": "^0.10.3",
+    "fileslice": "^1.0.0",
+    "lodash": "^3.6.0",
+    "mbr": "^0.4.0",
+    "resin-errors": "^1.0.2",
+    "tmp": "^0.0.25",
+    "underscore.string": "^3.0.3"
+  }
+}
