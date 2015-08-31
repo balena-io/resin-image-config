@@ -6,6 +6,8 @@ resin-image-config
 [![Build Status](https://travis-ci.org/resin-io/resin-image-config.svg?branch=master)](https://travis-ci.org/resin-io/resin-image-config)
 [![Build status](https://ci.appveyor.com/api/projects/status/s5lom6mul8pxlr80?svg=true)](https://ci.appveyor.com/project/jviotti/resin-image-config)
 
+**DEPRECATED in favor of https://github.com/resin-io/resin-image-fs**
+
 Resin.io image FAT configuration.
 
 Installation
